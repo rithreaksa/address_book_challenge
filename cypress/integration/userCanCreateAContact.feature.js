@@ -1,6 +1,6 @@
 
 describe('user can create a contact', () => {
-  it('test', () => {
+  beforeEach('test', () => {
     cy.visit('http://localhost:3001') 
     cy.get('#add-contact').click()
     cy.get('#name').type('Pumpkin')
@@ -13,10 +13,10 @@ describe('user can create a contact', () => {
   })
 
   it('displays a name of the new contact', () => {
-    cy.get('#contact-list').should('contain', 'Thomas')
+    cy.get('#contact-list').should('contain', 'Pumpkin')
   })
 
   it('displays the phone number of the new contact', () => {
-    cy.get('#contact-list').should('contain', '076 450 04 05')
+    cy.get('#contact-list').should('contain', '076 045 0403')
   })
 })
