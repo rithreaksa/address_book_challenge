@@ -9,10 +9,12 @@
     "cypress": "^5.4.0"
   },
   "dependencies": {
+    "browser-sync": "^2.26.13",
     "superstatic": "^7.0.1"
   },
   "scripts": {
     "start": "superstatic src --port 3001",
+    "start:hot": "node server.js",
     "cy:open": "yarn start & cypress open"
   }
 }
