@@ -3,5 +3,11 @@ describe('user can create a contact', () => {
   it('test', () => {
     cy.visit('http://localhost:3001') 
     cy.get('#add-contact').click()
+    cy.get('#name').type('Pumpkin')
+    cy.get('#email').type('pumpkin@gmail.com')
+    cy.get('#phone').type('076 045 0403')
+    cy.get('#company').type('Noah Trading Company')
+    cy.get('#notes').type('Best friend')
+    cy.get('#twitter').type('@pumpkin0430')
   })
 })
