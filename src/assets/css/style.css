@@ -1,0 +1,67 @@
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: lightcoral;
+  margin: auto;
+  margin-top: 20px;
+  width: 25%;
+  border: 10px solid black;
+  padding: 50px;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 15px 1px;
+  margin:10px 0;
+  display: inline-block;
+  border: 5px solid rgb(0.0,0);
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px 1px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 5px solid rgb(0.0,0);
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+textarea[type="text"] {
+  width: 100%;
+  padding: 12px 1px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 5px solid rgb(0.0,0);
+  border-radius: 8xp;
+  box-sizing: border-box;
+}
+
+button {
+  margin-bottom: 10px;
+  background-color: rgb(218.53,53);
+  border: solid;
+  color: darkcyan;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  background-color: rgb(218.53,53);
+  border: solid;
+  color: darkcyan;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px; 
+}
+
+ 
